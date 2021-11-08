@@ -12,6 +12,14 @@ header{
     margin-left: 0;
     width: 200px;
 }
+#autore{
+    color: #2cbdd6;
+}
+.sottolineato{
+    background-color: yellow;
+    font-style: normal;
+    font-size: 16px;
+}
 /* ELENCO*/
 #elenco{
     list-style-position: inside;
