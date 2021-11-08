@@ -1,5 +1,23 @@
 /* Generics*/
 header{
     background-image: url("/img/pattern.png");
-    background-color: royalblue;
+    background-color: #0f8bff;
+    height: 180px;
+}
+#logo{
+    position: relative;
+    top: 120px;
+    left: 10px;
+    margin-left: 0;
+    width: 200px;
+}
+thead{
+    background-color: rgb(41, 182, 248);
+}
+.rigaColorata{
+    background-color: rgba(124, 203, 240, 0.5);
+}
+
+p{
+    margin:0;
 }
