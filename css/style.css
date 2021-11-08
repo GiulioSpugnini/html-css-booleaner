@@ -34,6 +34,7 @@ h1{
 }
 p{
     margin-top: 0;
+    margin-bottom: 0;
 }
 span{
     font-size: 12px;
@@ -51,8 +52,31 @@ span{
 #thirdPart{
     margin-bottom: 25px;
 }
-span{
-    font-size: 20px;
-    font-style: normal;
+#finalPictures{
+    font-size: 15px;
+    
     color: darkgrey;
+}
+#primaFoto{
+    background-image: url("/img/monitor.jpg");
+    width: 270px;
+    height: 210px;
+    font-size: 22px;
+    color: #fff;
+    
+}
+#secondaFoto{
+    background-image: url("/img/graph.jpg");
+    width: 270px;
+    height: 210px;
+    font-size: 22px;
+    color: #fff;
+
+}
+.margine{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    
+    
 }
