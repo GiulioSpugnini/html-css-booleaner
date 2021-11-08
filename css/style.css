@@ -1,14 +1,32 @@
 /* Generics*/
+h1{
+    font-style: normal;
+    font: bolder;
+    font-size: 40px;
+    margin: 0;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+span{
+    font-size: 12px;
+}
+/* HEADER*/
 header{
     background-image: url("/img/pattern.png");
     background-color: #0f8bff;
     height: 180px;
     margin-bottom: 15px;
 }
+#sfondo{
+    
+    width: 150%;
+}
 #logo{
     position: relative;
-    top: 120px;
-    left: 10px;
+    top: 100px;
+    left: 370px;
     margin-left: 0;
     width: 200px;
 }
@@ -19,6 +37,12 @@ header{
     background-color: yellow;
     font-style: normal;
     font-size: 16px;
+}
+/* BODY*/
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    
 }
 /* ELENCO*/
 #elenco{
@@ -46,20 +70,13 @@ address{
     font-style: normal;
     color: darkgrey;
 }
-h1{
-    font-style: normal;
-    font: bolder;
-    margin: 0;
-}
-p{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-span{
-    font-size: 12px;
-}
+
 #firstPart{
     margin-bottom: 15px;
+    
+}
+#immagine1{
+      width: 540px;
 }
 /* TERZA PARTE*/
 #thirdPart{
