@@ -3,6 +3,7 @@ header{
     background-image: url("/img/pattern.png");
     background-color: #0f8bff;
     height: 180px;
+    margin-bottom: 15px;
 }
 #logo{
     position: relative;
@@ -13,11 +14,32 @@ header{
 }
 thead{
     background-color: rgb(41, 182, 248);
+    color: #fff;
 }
 .rigaColorata{
     background-color: rgba(124, 203, 240, 0.5);
 }
-
+address{
+    margin-right: 10%;
+    margin-bottom: 20px;
+    font-style: normal;
+    color: darkgrey;
+}
+h1{
+    font-style: normal;
+    font: bolder;
+    margin: 0;
+}
 p{
-    margin:0;
+    margin-top: 0;
+}
+span{
+    font-size: 12px;
+}
+#firstPart{
+    margin-bottom: 15px;
+}
+#elenco{
+    list-style-position: inside;
+    margin-left: -38px;
 }
