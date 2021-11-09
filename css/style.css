@@ -1,116 +1,141 @@
 /* Generics*/
-h1{
+
+h1 {
     font-style: normal;
     font: bolder;
     font-size: 40px;
     margin: 0;
 }
-p{
+
+p {
     margin-top: 0;
     margin-bottom: 0;
 }
-span{
+
+span {
     font-size: 12px;
 }
+
+
 /* BODY*/
 
+
 /* HEADER*/
-header{
+
+header {
     background-image: url("../img/pattern.png");
     background-color: #0f8bff;
     height: 180px;
     margin-bottom: 15px;
 }
-#sfondo{
-    
+
+#sfondo {
     width: 150%;
 }
-#logo{
+
+#logo {
     position: relative;
     top: 100px;
     left: 13.5%;
     margin-left: 0;
     width: 200px;
 }
-#autore{
+
+#autore {
     color: #2cbdd6;
 }
-.sottolineato{
+
+.sottolineato {
     background-color: yellow;
     font-style: normal;
     font-size: 16px;
 }
+
+
 /*CONTAINER*/
-.container{
+
+.container {
     margin-left: 20%;
     margin-right: 20%;
-    
 }
+
+
 /* ELENCO*/
-#elenco{
+
+#elenco {
     list-style-position: inside;
-    margin-left: -38px;
+    padding: 0;
 }
+
+
 /* TABELLA*/
-table{
+
+table {
     width: 100%;
     table-layout: fixed;
     height: 5px;
     border-collapse: collapse;
 }
-thead{
+
+thead {
     background-color: rgb(41, 182, 248);
     color: #fff;
 }
-.rigaColorata{
+
+.rigaColorata {
     background-color: rgba(124, 203, 240, 0.5);
-    
 }
-address{
+
+address {
     margin-right: 10%;
     margin-bottom: 20px;
     font-style: normal;
     color: darkgrey;
 }
 
-#firstPart{
+#firstPart {
+    margin-left: 0;
     margin-bottom: 15px;
-    
 }
-#immagine1{
-      width: 540px;
+
+#immagine1 {
+    width: 540px;
 }
+
+
 /* TERZA PARTE*/
-#thirdPart{
+
+#thirdPart {
     margin-top: 15px;
     margin-bottom: 25px;
 }
+
+
 /* PARTE FINALE*/
-#finalPictures{
+
+#finalPictures {
     font-size: 15px;
-    
     color: darkgrey;
 }
-#primaFoto{
+
+#primaFoto {
     background-image: url("../img/monitor.jpg");
     width: 270px;
     height: 210px;
     font-size: 22px;
     color: #fff;
-    
 }
-#secondaFoto{
+
+#secondaFoto {
     background-image: url("../img/graph.jpg");
     width: 270px;
     height: 210px;
     font-size: 22px;
     color: #fff;
-
 }
-.margine{
+
+.margine {
     position: relative;
     top: 10%;
     left: 10%;
-    
-    
 }
