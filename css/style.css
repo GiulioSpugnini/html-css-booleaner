@@ -1,141 +1,120 @@
 /* Generics*/
 
 h1 {
-    font-style: normal;
-    font: bolder;
-    font-size: 40px;
-    margin: 0;
+  font-style: normal;
+  font: bolder;
+  font-size: 40px;
+  margin: 0;
 }
 
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 span {
-    font-size: 12px;
+  font-size: 12px;
 }
 
-
-/* BODY*/
-
+.grigio {
+  color: grey;
+}
+.celeste {
+  color: #2cbdd6;
+}
 
 /* HEADER*/
 
 header {
-    background-image: url("../img/pattern.png");
-    background-color: #0f8bff;
-    height: 180px;
-    margin-bottom: 15px;
+  background-image: url("../img/pattern.png");
+  background-color: #0f8bff;
+  height: 180px;
+  margin-bottom: 15px;
 }
 
 #sfondo {
-    width: 150%;
+  width: 150%;
 }
 
 #logo {
-    position: relative;
-    top: 100px;
-    left: 13.5%;
-    margin-left: 0;
-    width: 200px;
-}
-
-#autore {
-    color: #2cbdd6;
+  position: relative;
+  top: 100px;
+  left: 13.5%;
+  margin-left: 0;
+  width: 200px;
 }
 
 .sottolineato {
-    background-color: yellow;
-    font-style: normal;
-    font-size: 16px;
+  background-color: yellow;
+  font-style: normal;
+  font-size: 16px;
 }
-
 
 /*CONTAINER*/
 
 .container {
-    margin-left: 20%;
-    margin-right: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
-
 
 /* ELENCO*/
 
-#elenco {
-    list-style-position: inside;
-    padding: 0;
+.text-part {
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
+#elenco {
+  list-style-position: inside;
+  padding: 0;
+}
+#TimBerners {
+  margin-left: 0;
+  margin-bottom: 15px;
+}
 
 /* TABELLA*/
 
 table {
-    width: 100%;
-    table-layout: fixed;
-    height: 5px;
-    border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  height: 5px;
+  border-collapse: collapse;
 }
 
 thead {
-    background-color: rgb(41, 182, 248);
-    color: #fff;
+  background-color: rgb(41, 182, 248);
+  color: #fff;
 }
 
 .rigaColorata {
-    background-color: rgba(124, 203, 240, 0.5);
+  background-color: rgba(124, 203, 240, 0.5);
 }
 
 address {
-    margin-right: 10%;
-    margin-bottom: 20px;
-    font-style: normal;
-    color: darkgrey;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  font-style: normal;
+  color: darkgrey;
 }
 
-#firstPart {
-    margin-left: 0;
-    margin-bottom: 15px;
+/* FOTO FINALI*/
+.foto {
+  width: 270px;
+  height: 210px;
+  font-size: 22px;
+  color: #fff;
+}
+#Monitor {
+  background-image: url("../img/monitor.jpg");
 }
 
-#immagine1 {
-    width: 540px;
-}
-
-
-/* TERZA PARTE*/
-
-#thirdPart {
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-
-
-/* PARTE FINALE*/
-
-#finalPictures {
-    font-size: 15px;
-    color: darkgrey;
-}
-
-#primaFoto {
-    background-image: url("../img/monitor.jpg");
-    width: 270px;
-    height: 210px;
-    font-size: 22px;
-    color: #fff;
-}
-
-#secondaFoto {
-    background-image: url("../img/graph.jpg");
-    width: 270px;
-    height: 210px;
-    font-size: 22px;
-    color: #fff;
+#Graphic {
+  background-image: url("../img/graph.jpg");
 }
 
 .margine {
-    position: relative;
-    top: 10%;
-    left: 10%;
+  position: relative;
+  top: 10%;
+  left: 10%;
 }
